@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  server:
+    build:
+      context: ./server
+    ports:
+      - "4005:4005"
+    environment:
+      - PORT=4005
+
+  client:
+    build:
+      context: ./client
+    ports:
+      - "8081:80"
+    depends_on:
+      - server
