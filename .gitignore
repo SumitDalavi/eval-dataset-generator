@@ -30,3 +30,6 @@ bin/
 .env
 .env.local
 .env.*.local
+
+.venv/
+.terraform/
