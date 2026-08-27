@@ -7,7 +7,6 @@ name: CI Pipeline
     branches:
       - master
 jobs:
-  node-build-test:
     name: Node.js Build & Test
     runs-on: ubuntu-latest
     steps:
