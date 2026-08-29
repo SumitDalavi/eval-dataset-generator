@@ -19,6 +19,6 @@ jobs:
       - name: Run Tests
         run: |
           if [ -f requirements.txt ] && pip show pytest &>/dev/null; then
-            pytest tests/ -v --tb=short || true
+            pytest tests/ -v --tb=short
           fi
           echo "CI completed successfully"
