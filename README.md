@@ -1,8 +1,10 @@
 # eval-dataset-generator
 
-[![Release](https://img.shields.io/github/v/release/SumitDalavi/eval-dataset-generator)](https://github.com/SumitDalavi/eval-dataset-generator/releases)
+[![CI Pipeline](https://github.com/SumitDalavi/eval-dataset-generator/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/SumitDalavi/eval-dataset-generator/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/SumitDalavi/eval-dataset-generator?color=0969da&label=release&logo=github)](https://github.com/SumitDalavi/eval-dataset-generator/releases)
 [![Release Workflow](https://github.com/SumitDalavi/eval-dataset-generator/actions/workflows/release.yml/badge.svg)](https://github.com/SumitDalavi/eval-dataset-generator/actions/workflows/release.yml)
-
+[![SBOM](https://img.shields.io/badge/SBOM-SPDX%202.3-blueviolet?logo=spdx)](https://github.com/SumitDalavi/eval-dataset-generator/releases/tag/v0.2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 Utility for bootstrapping evaluation datasets for fine-tuning, including data augmentation and format validation.
 
@@ -25,7 +27,6 @@ pytest
 
 ## Architecture
 Please see the [Architecture Document](docs/architecture.md) for sequence diagrams and system design details.
-
 
 ## CI & Reliability Updates (August 2026)
 
